@@ -1,21 +1,21 @@
-# How to Generate a Licenses csv at a node project
+MIT License
 
-### License-Checker
+Copyright (c) 2019 rafasimao-boilerplate
 
-Reference [link](https://medium.com/@fokusman/the-easiest-way-to-check-all-your-npm-dependency-licenses-753075ef1d9d)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Create a json file like this:
-```
-{
-  "name": "",
-  "version": "",
-  "licenses": ""
-}
-```
-to use as a template of fields to get the right columns from the package libs.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-
-Then run this command passing the json file as argument and extracting the informations at file.csv:
-```
-npx license-checker --customPath file.json --csv --out file.csv
-```
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
